@@ -1,0 +1,26 @@
+name: DevOps Compliance Audit
+
+# Controls when the action will run
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 🛡️ Security Logic Check
+        run: |
+          echo "Starting DevOps Compliance Audit..."
+          # This command searches for the word 'RBAC' in your strategy file
+          if grep -q "RBAC" environment-strategy.md; then
+            echo "✅ SECURITY CHECK PASSED: RBAC policies found."
+          else
+            echo "❌ SECURITY CHECK FAILED: RBAC policies missing!"
+            exit 1
+          fi
