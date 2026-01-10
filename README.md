@@ -1,6 +1,6 @@
 🚀 DevOps & Cloud Infrastructure Lab
 
-Miracle Chisom Ikechukwu | Aspiring DevOps Engineer
+Miracle Chisom Ikechukwu | Junior DevOps Engineer
 
 Wroclaw, Poland
 
