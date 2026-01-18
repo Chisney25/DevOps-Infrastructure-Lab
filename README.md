@@ -1,61 +1,107 @@
-🚀 DevOps & Cloud Infrastructure Lab
+# DevOps Infrastructure Lab
 
-Miracle Chisom Ikechukwu | Junior DevOps Engineer
+## Overview
 
-Wroclaw, Poland
+This repository serves as a **hands-on DevOps Infrastructure Lab** focused on building and understanding core infrastructure concepts using Linux-based environments.
 
-This repository serves as a Proof of Work for my journey into Cloud-Native engineering. It contains hands-on labs focused on automating infrastructure, containerizing applications, and implementing CI/CD best practices.
+The lab is designed to simulate real-world DevOps and system administration tasks such as system configuration, service management, automation basics, and infrastructure organization. It emphasizes practical execution over theory.
 
-🏗️ Project Architecture
-1. Infrastructure as Code (IaC)
-Tool: Terraform
+This project is part of a self-directed DevOps learning path aimed at developing junior-level, production-relevant skills.
 
-Directory: /terraform/azure-network
+---
 
-Focus: Provisioning Azure Virtual Networks (VNETs), subnets, and Resource Groups.
+## Objectives
 
-Goal: Eliminating manual portal configuration through automated HCL (HashiCorp Configuration Language) templates.
+- Understand Linux infrastructure fundamentals
+- Practice system configuration and environment setup
+- Apply infrastructure-as-code thinking using files and scripts
+- Build repeatable and well-documented system workflows
+- Strengthen CLI, Git, and troubleshooting skills
 
-2. Containerization & Orchestration
-Tools: Docker, Helm, Kubernetes
+---
 
-Directory: /docker | /helm
+## Repository Structure
 
-Focus: Building optimized Dockerfiles for web services and managing deployment replicas via Helm charts.
+├── scripts/ # Automation or helper scripts (if applicable)
 
-Goal: Ensuring application portability and scalability across environments.
+├── configs/ # Configuration files and system setup artifacts
 
-3. Automation & CI/CD
-Tool: GitHub Actions
+├── notes/ # Infrastructure notes and observations
 
-Directory: /.github/workflows
+├── README.md # Project documentation
 
-Focus: Automated linting of Bash scripts and documentation compliance audits.
+*(Structure may evolve as the lab expands)*
 
-Goal: Implementing "Shift-Left" security and automated quality gates.
+---
 
-4. Linux Scripting
-Tool: Bash
+## What This Lab Covers
 
-Directory: /scripts
+Depending on the exercises completed, this lab may include:
 
-Focus: System health checks, memory monitoring, and service status verification.
+- Linux system setup and configuration
+- File system management and permissions
+- Package installation and dependency handling
+- Service and process management
+- Basic automation using shell scripts
+- Environment organization and documentation
+- Infrastructure troubleshooting techniques
 
-🛠️ Technical Documentation
-As part of my commitment to operational excellence, I maintain detailed strategy documents:
+The focus is on **understanding how systems behave**, not just making them work once.
 
-: My approach to RBAC, security, and environment separation.
+---
 
-: Implementation of the "Four Golden Signals" for system reliability.
+## Environment
 
-📈 Learning Roadmap
+- Operating System: Linux (Ubuntu-based)
+- Tools: Bash, core GNU utilities
+- Version Control: Git & GitHub
+- Editor: VS Code
+- Execution: Local and virtualized environments
 
-[x] AZ-900 Microsoft Azure Fundamentals
+---
 
-[x] Infrastructure as Code (Terraform) basics
+## Usage
 
-[x] Containerization with Docker
+Clone the repository:
 
-[x] Currently Learning: Advanced AKS (Azure Kubernetes Service)
+```bash
+git clone https://github.com/Chisney25/DevOps-Infrastructure-Lab.git
+cd DevOps-Infrastructure-Lab
+```
+Explore scripts, configurations, and notes:
+```bash
+ls
+```
+Run scripts where applicable:
+```bash
+bash script-name.sh
+```
+*(Always review scripts before execution)*
 
-[x] Target: AZ-104 Azure Administrator Associate
+---
+
+## Skills Demonstrated
+- Linux system administration fundamentals
+- Infrastructure setup and configuration
+- Shell scripting basics
+- Command-line proficiency
+- Problem solving and troubleshooting
+- Git & GitHub version control
+- Technical documentation
+
+---
+
+## Future Improvements
+- Expand automation coverage
+- Add infrastructure diagrams
+- Introduce containerized environments
+- Integrate monitoring or logging components
+- Document full system build workflows
+
+---
+
+## Links
+- GitHub: https://github.com/Chisney25
+- LinkedIn: https://www.linkedin.com/in/chisommiracle
+
+---
